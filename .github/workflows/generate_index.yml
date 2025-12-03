@@ -1,16 +1,32 @@
+name: Generate index.kml
+
+# Workflow paleidžiamas kiekvieną kartą, kai pushinama į main
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@v3       # Šią eilutę pakeiskite
+    # 1. Nuskaityti repozitoriją ir suteikti leidimą push
+    - uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    # 2. Nustatyti Python aplinką
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
+
+    # 3. Paleisti Python skriptą generuoti index.kml
     - name: Generate index.kml
       run: python ./generate_index.py
+
+    # 4. Commit ir push tik jei index.kml pasikeitė
     - name: Commit and push index.kml
       run: |
         git config --global user.name "github-actions"
