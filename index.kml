@@ -3,17 +3,9 @@
   <Document>
     <name>Index of KML files</name>
     <NetworkLink>
-      <name>trajectory__2025-12-02T12_00_00 (1).kml</name>
+      <name>trajectory__2-02T12_00_00.kml</name>
       <Link>
-        <href>kml_files\trajectory__2025-12-02T12_00_00 (1).kml</href>
-        <refreshMode>onInterval</refreshMode>
-        <refreshInterval>3600</refreshInterval>
-      </Link>
-    </NetworkLink>
-    <NetworkLink>
-      <name>trajectory__2025-12-02T12_00_00 (ecmwf).kml</name>
-      <Link>
-        <href>kml_files\trajectory__2025-12-02T12_00_00 (ecmwf).kml</href>
+        <href>kml_files/trajectory__2-02T12_00_00.kml</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
       </Link>
@@ -21,15 +13,23 @@
     <NetworkLink>
       <name>trajectory__2025-12-02T12_00_00 testas.kml</name>
       <Link>
-        <href>kml_files\trajectory__2025-12-02T12_00_00 testas.kml</href>
+        <href>kml_files/trajectory__2025-12-02T12_00_00%20testas.kml</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
       </Link>
     </NetworkLink>
     <NetworkLink>
-      <name>trajectory__2025-12-03T09_00_00.kml</name>
+      <name>trajectory__2025-12-02T12_00_00 (ecmwf).kml</name>
       <Link>
-        <href>kml_files\trajectory__2025-12-03T09_00_00.kml</href>
+        <href>kml_files/trajectory__2025-12-02T12_00_00%20%28ecmwf%29.kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+      </Link>
+    </NetworkLink>
+    <NetworkLink>
+      <name>trajectory__2025-12-02T12_00_00 (1).kml</name>
+      <Link>
+        <href>kml_files/trajectory__2025-12-02T12_00_00%20%281%29.kml</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
       </Link>
