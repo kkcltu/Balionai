@@ -1,4 +1,5 @@
 import os
+import urllib.parse
 
 # katalogas su KML failais
 kml_dir = "kml_files"
@@ -22,11 +23,12 @@ kml_content = '''<?xml version="1.0" encoding="UTF-8"?>
 
 # pridedame NetworkLink kiekvienam KML failui
 for kml in kml_files:
-    kml_path = os.path.join(kml_dir, kml)
+    # naudojame forward slash ir koduojame specialius simbolius
+    href = f"{kml_dir}/{urllib.parse.quote(kml)}"
     kml_content += f'''    <NetworkLink>
       <name>{kml}</name>
       <Link>
-        <href>{kml_path}</href>
+        <href>{href}</href>
         <refreshMode>onInterval</refreshMode>
         <refreshInterval>3600</refreshInterval>
       </Link>
