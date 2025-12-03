@@ -1,0 +1,27 @@
+name: Generate index.kml
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'kml_files/*.kml'  # veikia tik kai ákeli naujà KML
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - name: Generate index.kml
+      run: python generate_index.py
+    - name: Commit and push index.kml
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "actions@github.com"
+        git add index.kml
+        git commit -m "Auto-update index.kml"
+        git push
