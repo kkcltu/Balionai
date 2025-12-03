@@ -1,28 +1,44 @@
 import os
 
-# Katalogas su KML failais
+# katalogas su KML failais
 kml_dir = "kml_files"
+# kelias, kur bus sukurtas index.kml
+index_file = "index.kml"
 
-# Surenkam visus .kml failus kataloge
+# patikriname, ar katalogas egzistuoja
+if not os.path.exists(kml_dir):
+    print(f"Katalogas {kml_dir} neegzistuoja!")
+    exit(1)
+
+# surenkame visus KML failus kataloge
 kml_files = [f for f in os.listdir(kml_dir) if f.endswith(".kml")]
 
-# Sukuriam index.kml
-with open("index.kml", "w", encoding="utf-8") as f:
-    f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
-    f.write('<kml xmlns="http://www.opengis.net/kml/2.2">\n<Document>\n')
-    f.write('<name>Balionų Layeriai</name>\n\n')
+# pradinis KML turinys
+kml_content = '''<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Index of KML files</name>
+'''
 
-    for kml in kml_files:
-        url_kml = kml.replace(" ", "%20")  # encode spaces
-        f.write(f'  <NetworkLink>\n')
-        f.write(f'    <name>{kml}</name>\n')
-        f.write(f'    <Link>\n')
-        f.write(f'      <href>https://raw.githubusercontent.com/kkcltu/Balionai/refs/heads/main/{kml_dir}/{url_kml}</href>\n')
-        f.write(f'      <refreshMode>onInterval</refreshMode>\n')
-        f.write(f'      <refreshInterval>300</refreshInterval>\n')
-        f.write(f'    </Link>\n')
-        f.write(f'  </NetworkLink>\n\n')
+# pridedame NetworkLink kiekvienam KML failui
+for kml in kml_files:
+    kml_path = os.path.join(kml_dir, kml)
+    kml_content += f'''    <NetworkLink>
+      <name>{kml}</name>
+      <Link>
+        <href>{kml_path}</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+      </Link>
+    </NetworkLink>
+'''
 
-    f.write('</Document>\n</kml>')
+# uždaryti Document ir KML
+kml_content += '''  </Document>
+</kml>'''
 
-print("index.kml sugeneruotas sėkmingai!")
+# įrašome index.kml
+with open(index_file, "w", encoding="utf-8") as f:
+    f.write(kml_content)
+
+print(f"{index_file} sėkmingai sukurtas su {len(kml_files)} KML failais.")
