@@ -6,6 +6,11 @@ kml_dir = "kml_files"
 # kelias, kur bus sukurtas index.kml
 index_file = "index.kml"
 
+# jūsų GitHub repo informacija
+github_user = "kkcltu"
+github_repo = "Balionai"
+github_branch = "main"  # arba kita šaka, jei reikia
+
 # patikriname, ar katalogas egzistuoja
 if not os.path.exists(kml_dir):
     print(f"Katalogas {kml_dir} neegzistuoja!")
@@ -23,8 +28,8 @@ kml_content = '''<?xml version="1.0" encoding="UTF-8"?>
 
 # pridedame NetworkLink kiekvienam KML failui
 for kml in kml_files:
-    # naudojame forward slash ir koduojame specialius simbolius
-    href = f"{kml_dir}/{urllib.parse.quote(kml)}"
+    # suformuojame GitHub raw URL
+    href = f"https://raw.githubusercontent.com/{github_user}/{github_repo}/{github_branch}/{kml_dir}/{urllib.parse.quote(kml)}"
     kml_content += f'''    <NetworkLink>
       <name>{kml}</name>
       <Link>
