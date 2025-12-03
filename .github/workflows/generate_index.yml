@@ -1,15 +1,10 @@
-name: Generate index.kml
-
-on:
-  push:
-    branches:
-      - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v3       # Šią eilutę pakeiskite
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
