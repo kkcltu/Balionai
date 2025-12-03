@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Index of KML files</name>
+    <NetworkLink>
+      <name>trajectory__2025-12-02T12_00_00 (ecmwf).kml</name>
+      <Link>
+        <href>kml_files\trajectory__2025-12-02T12_00_00 (ecmwf).kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+      </Link>
+    </NetworkLink>
+    <NetworkLink>
+      <name>trajectory__2025-12-02T12_00_00 testas.kml</name>
+      <Link>
+        <href>kml_files\trajectory__2025-12-02T12_00_00 testas.kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+      </Link>
+    </NetworkLink>
+    <NetworkLink>
+      <name>trajectory__2025-12-03T09_00_00.kml</name>
+      <Link>
+        <href>kml_files\trajectory__2025-12-03T09_00_00.kml</href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>3600</refreshInterval>
+      </Link>
+    </NetworkLink>
+  </Document>
+</kml>
