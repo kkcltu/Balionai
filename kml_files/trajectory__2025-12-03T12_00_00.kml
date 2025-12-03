@@ -1,0 +1,1234 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+    <Document>
+        <name><![CDATA[Windy traj plugin trajectory - 2025-12-03T12:00:00]]></name>
+        <visibility>1</visibility>
+        <open>1</open>
+        <Snippet><![CDATA[created by <a href="https://www.npmjs.com/package/windy-plugin-traj">Windy traj plugin</a>]]></Snippet>
+        <Style id="gv_waypoint_normal">
+            <IconStyle>
+                <color>ffffffff</color>
+                <scale>1</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+                </Icon>
+                <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+            </IconStyle>
+            <LabelStyle>
+                <color>ffffffff</color>
+                <scale>1</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>
+        <![CDATA[<div style="position:absolute; overflow:visible;  margin-top:-5px; padding:0px; font-family:Arial,sans-serif; min-width:250px;">
+            <b>$[name]</b>
+            <div style="margin-top:0px;">$[description]</div>
+            </div>
+        ]]></text>
+            </BalloonStyle>
+        </Style>
+        <Style id="gv_waypoint_highlight">
+            <IconStyle>
+                <color>ffffffff</color>
+                <scale>1.2</scale>
+                <Icon>
+                    <href>https://maps.google.com/mapfiles/kml/pal4/icon56.png</href>
+                </Icon>
+                <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+            </IconStyle>
+            <LabelStyle>
+                <color>ffffffff</color>
+                <scale>1</scale>
+            </LabelStyle>
+            <BalloonStyle>
+                <text>
+        <![CDATA[<div style="position:absolute; overflow:visible;  margin-top:-5px; padding:0px; font-family:Arial,sans-serif; min-width:250px;">
+            <b>$[name]</b>
+            <div style="margin-top:0px;">$[description]</div>
+            </div>
+        ]]></text>
+            </BalloonStyle>
+        </Style>
+        <Style id="gv_trackpoint_normal">
+            <IconStyle>
+                <scale>0.3</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pal2/icon26.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>0</scale>
+            </LabelStyle>
+            <BalloonStyle>
+               <text>
+        <![CDATA[<div style="position:absolute; overflow:visible;  margin-top:-5px; padding:0px; font-family:Arial,sans-serif; min-width:250px;">
+            <b>$[name]</b>
+            <div style="margin-top:0px;">$[description]</div>
+            </div>
+        ]]></text>
+            </BalloonStyle>
+        </Style>
+        <Style id="gv_trackpoint_highlight">
+            <IconStyle>
+                <scale>0.4</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/pal2/icon26.png</href>
+                </Icon>
+            </IconStyle>
+            <LabelStyle>
+                <scale>1</scale>
+            </LabelStyle>
+            <BalloonStyle>
+               <text>
+        <![CDATA[<div style="position:absolute; overflow:visible;  margin-top:-5px; padding:0px; font-family:Arial,sans-serif; min-width:250px;">
+            <b>$[name]</b>
+            <div style="margin-top:0px;">$[description]</div>
+            </div>
+        ]]></text>
+            </BalloonStyle>
+        </Style>
+        <Style id="gv_track">
+            <LineStyle>
+                <color>ff0000e6</color>
+                <width>4</width>
+            </LineStyle>
+            <BalloonStyle>
+                <text>
+        <![CDATA[<div style="position:absolute; overflow:visible;  margin-top:-5px; padding:0px; font-family:Arial,sans-serif; min-width:250px;">
+            <b>$[name]</b>
+            <div style="margin-top:0px;">$[description]</div>
+            </div>
+        ]]></text>
+            </BalloonStyle>
+        </Style>
+        <StyleMap id="gv_waypoint">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#gv_waypoint_normal</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#gv_waypoint_highlight</styleUrl>
+            </Pair>
+        </StyleMap>
+        <StyleMap id="gv_trackpoint">
+            <Pair>
+                <key>normal</key>
+                <styleUrl>#gv_trackpoint_normal</styleUrl>
+            </Pair>
+            <Pair>
+                <key>highlight</key>
+                <styleUrl>#gv_trackpoint_highlight</styleUrl>
+            </Pair>
+        </StyleMap>
+        <Folder id="Tracks">
+            <name>Tracks</name>
+            <visibility>1</visibility>
+            <open>0</open>
+            <Folder id="track 1">
+                <name><![CDATA[950h]]></name>
+                <Snippet></Snippet>
+                <description><![CDATA[Model:ecmwf<br>Reference time:2025-12-03T00:00:00Z<br>Distance:242530m<br>Time:480min<br>Av speed:30.32kph<br>Alt: 2000ft]]></description>
+                <Placemark>
+                    <name><![CDATA[950h]]></name>
+                    <description><![CDATA[Model:ecmwf<br>Reference time:2025-12-03T00:00:00Z<br>Distance:242530m<br>Time:480min<br>Av speed:30.32kph<br>Alt: 2000ft]]></description>
+                    <styleUrl>#gv_track</styleUrl>
+                    <Style>
+                        <LineStyle>
+                            <color>FF2292f1</color>
+                            <width>4</width>
+                        </LineStyle>
+                    </Style>
+                    <MultiGeometry>
+                        <LineString>
+                            <tessellate>0</tessellate>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.15710460394621,53.84712600277435,600 24.13518151190805,53.8846514972885,600 24.114460048765736,53.92220521452678,600 24.0958869425966,53.96031217003578,600 24.07938414381821,53.99921675801118,600 24.064840360338938,54.03939591449283,600 24.052249497131317,54.08128485246865,600 24.03927818975267,54.12439464472651,600 24.026047896658092,54.1683185334514,600 24.011363803694646,54.212493805361326,600 23.995055753100687,54.25731035377712,600 23.978624964621332,54.30241478838088,600 23.962082313248782,54.34777623945592,600 23.94410392697927,54.39311414919859,600 23.926122530800615,54.43840957482147,600 23.909647421115608,54.48343657724427,600 23.894791849901896,54.52778588381293,600 23.881475001935673,54.57156510178748,600 23.870937957406653,54.614980255569286,600 23.860270801987824,54.65888406241048,600 23.850829625198088,54.70331282388862,600 23.84128814858811,54.748163915684614,600 23.833032945159506,54.793445713386966,600 23.8234286484037,54.83849133973764,600 23.81391155157141,54.883078662883214,600 23.805863196639823,54.92707980303752,600 23.799352545025048,54.9697956510331,600 23.794205649840634,55.012000454526785,600 23.790380129437956,55.05381259191789,600 23.7865764419988,55.09534296666705,600 23.782798423889666,55.13655054188658,600 23.779056634012356,55.17732127230043,600 23.77407782187849,55.21793786284092,600 23.767747160078443,55.25917303266679,600 23.759977347601957,55.301255348900526,600 23.7518785469302,55.345071038364885,600 23.74328567739748,55.391505177788396,600 23.735663764285107,55.440923617820744,600 23.727754279705227,55.49214001187563,600 23.72127614067803,55.54455330283145,600 23.714740034100394,55.597364533267786,600 23.709836644374832,55.650156426512574,600 23.70657337623844,55.70281285495647,600 23.704957022351184,55.75492249117566,600 23.706561542452107,55.806582084740405,600 23.709740328157924,55.857671856398674,600 23.712857006311417,55.90769891417717,600 23.715908805196197,55.95662275376724,600 23.718912387934587,56.00471379618952,600  </coordinates>
+                        </LineString>
+                    </MultiGeometry>
+                </Placemark>
+                <Folder id="track 1 points">
+                    <name>Points</name>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#1: Time:</i> 2025-12-03T12:00:00Z<br/>
+                                <i>Latitude:</i> 53.8471260&#176;<br/>
+                                <i>Longitude:</i> 24.1571046&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.15710460394621,53.84712600277435,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#2: Time:</i> 2025-12-03T12:10:00Z<br/>
+                                <i>Latitude:</i> 53.8846515&#176;<br/>
+                                <i>Longitude:</i> 24.1351815&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.13518151190805,53.8846514972885,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#3: Time:</i> 2025-12-03T12:20:00Z<br/>
+                                <i>Latitude:</i> 53.9222052&#176;<br/>
+                                <i>Longitude:</i> 24.1144600&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.114460048765736,53.92220521452678,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#4: Time:</i> 2025-12-03T12:30:00Z<br/>
+                                <i>Latitude:</i> 53.9603122&#176;<br/>
+                                <i>Longitude:</i> 24.0958869&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.0958869425966,53.96031217003578,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#5: Time:</i> 2025-12-03T12:40:00Z<br/>
+                                <i>Latitude:</i> 53.9992168&#176;<br/>
+                                <i>Longitude:</i> 24.0793841&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.07938414381821,53.99921675801118,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#6: Time:</i> 2025-12-03T12:50:00Z<br/>
+                                <i>Latitude:</i> 54.0393959&#176;<br/>
+                                <i>Longitude:</i> 24.0648404&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.064840360338938,54.03939591449283,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#7: Time:</i> 2025-12-03T13:00:00Z<br/>
+                                <i>Latitude:</i> 54.0812849&#176;<br/>
+                                <i>Longitude:</i> 24.0522495&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.052249497131317,54.08128485246865,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#8: Time:</i> 2025-12-03T13:10:00Z<br/>
+                                <i>Latitude:</i> 54.1243946&#176;<br/>
+                                <i>Longitude:</i> 24.0392782&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.03927818975267,54.12439464472651,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#9: Time:</i> 2025-12-03T13:20:00Z<br/>
+                                <i>Latitude:</i> 54.1683185&#176;<br/>
+                                <i>Longitude:</i> 24.0260479&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.026047896658092,54.1683185334514,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#10: Time:</i> 2025-12-03T13:30:00Z<br/>
+                                <i>Latitude:</i> 54.2124938&#176;<br/>
+                                <i>Longitude:</i> 24.0113638&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>24.011363803694646,54.212493805361326,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#11: Time:</i> 2025-12-03T13:40:00Z<br/>
+                                <i>Latitude:</i> 54.2573104&#176;<br/>
+                                <i>Longitude:</i> 23.9950558&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.995055753100687,54.25731035377712,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#12: Time:</i> 2025-12-03T13:50:00Z<br/>
+                                <i>Latitude:</i> 54.3024148&#176;<br/>
+                                <i>Longitude:</i> 23.9786250&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.978624964621332,54.30241478838088,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#13: Time:</i> 2025-12-03T14:00:00Z<br/>
+                                <i>Latitude:</i> 54.3477762&#176;<br/>
+                                <i>Longitude:</i> 23.9620823&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.962082313248782,54.34777623945592,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#14: Time:</i> 2025-12-03T14:10:00Z<br/>
+                                <i>Latitude:</i> 54.3931141&#176;<br/>
+                                <i>Longitude:</i> 23.9441039&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.94410392697927,54.39311414919859,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#15: Time:</i> 2025-12-03T14:20:00Z<br/>
+                                <i>Latitude:</i> 54.4384096&#176;<br/>
+                                <i>Longitude:</i> 23.9261225&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.926122530800615,54.43840957482147,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#16: Time:</i> 2025-12-03T14:30:00Z<br/>
+                                <i>Latitude:</i> 54.4834366&#176;<br/>
+                                <i>Longitude:</i> 23.9096474&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.909647421115608,54.48343657724427,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#17: Time:</i> 2025-12-03T14:40:00Z<br/>
+                                <i>Latitude:</i> 54.5277859&#176;<br/>
+                                <i>Longitude:</i> 23.8947918&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.894791849901896,54.52778588381293,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#18: Time:</i> 2025-12-03T14:50:00Z<br/>
+                                <i>Latitude:</i> 54.5715651&#176;<br/>
+                                <i>Longitude:</i> 23.8814750&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.881475001935673,54.57156510178748,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#19: Time:</i> 2025-12-03T15:00:00Z<br/>
+                                <i>Latitude:</i> 54.6149803&#176;<br/>
+                                <i>Longitude:</i> 23.8709380&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.870937957406653,54.614980255569286,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#20: Time:</i> 2025-12-03T15:10:00Z<br/>
+                                <i>Latitude:</i> 54.6588841&#176;<br/>
+                                <i>Longitude:</i> 23.8602708&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.860270801987824,54.65888406241048,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#21: Time:</i> 2025-12-03T15:20:00Z<br/>
+                                <i>Latitude:</i> 54.7033128&#176;<br/>
+                                <i>Longitude:</i> 23.8508296&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.850829625198088,54.70331282388862,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#22: Time:</i> 2025-12-03T15:30:00Z<br/>
+                                <i>Latitude:</i> 54.7481639&#176;<br/>
+                                <i>Longitude:</i> 23.8412881&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.84128814858811,54.748163915684614,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#23: Time:</i> 2025-12-03T15:40:00Z<br/>
+                                <i>Latitude:</i> 54.7934457&#176;<br/>
+                                <i>Longitude:</i> 23.8330329&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.833032945159506,54.793445713386966,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#24: Time:</i> 2025-12-03T15:50:00Z<br/>
+                                <i>Latitude:</i> 54.8384913&#176;<br/>
+                                <i>Longitude:</i> 23.8234286&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.8234286484037,54.83849133973764,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#25: Time:</i> 2025-12-03T16:00:00Z<br/>
+                                <i>Latitude:</i> 54.8830787&#176;<br/>
+                                <i>Longitude:</i> 23.8139116&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.81391155157141,54.883078662883214,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#26: Time:</i> 2025-12-03T16:10:00Z<br/>
+                                <i>Latitude:</i> 54.9270798&#176;<br/>
+                                <i>Longitude:</i> 23.8058632&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.805863196639823,54.92707980303752,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#27: Time:</i> 2025-12-03T16:20:00Z<br/>
+                                <i>Latitude:</i> 54.9697957&#176;<br/>
+                                <i>Longitude:</i> 23.7993525&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.799352545025048,54.9697956510331,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#28: Time:</i> 2025-12-03T16:30:00Z<br/>
+                                <i>Latitude:</i> 55.0120005&#176;<br/>
+                                <i>Longitude:</i> 23.7942056&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.794205649840634,55.012000454526785,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#29: Time:</i> 2025-12-03T16:40:00Z<br/>
+                                <i>Latitude:</i> 55.0538126&#176;<br/>
+                                <i>Longitude:</i> 23.7903801&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.790380129437956,55.05381259191789,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#30: Time:</i> 2025-12-03T16:50:00Z<br/>
+                                <i>Latitude:</i> 55.0953430&#176;<br/>
+                                <i>Longitude:</i> 23.7865764&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.7865764419988,55.09534296666705,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#31: Time:</i> 2025-12-03T17:00:00Z<br/>
+                                <i>Latitude:</i> 55.1365505&#176;<br/>
+                                <i>Longitude:</i> 23.7827984&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.782798423889666,55.13655054188658,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#32: Time:</i> 2025-12-03T17:10:00Z<br/>
+                                <i>Latitude:</i> 55.1773213&#176;<br/>
+                                <i>Longitude:</i> 23.7790566&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.779056634012356,55.17732127230043,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#33: Time:</i> 2025-12-03T17:20:00Z<br/>
+                                <i>Latitude:</i> 55.2179379&#176;<br/>
+                                <i>Longitude:</i> 23.7740778&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.77407782187849,55.21793786284092,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#34: Time:</i> 2025-12-03T17:30:00Z<br/>
+                                <i>Latitude:</i> 55.2591730&#176;<br/>
+                                <i>Longitude:</i> 23.7677472&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.767747160078443,55.25917303266679,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#35: Time:</i> 2025-12-03T17:40:00Z<br/>
+                                <i>Latitude:</i> 55.3012553&#176;<br/>
+                                <i>Longitude:</i> 23.7599773&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.759977347601957,55.301255348900526,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#36: Time:</i> 2025-12-03T17:50:00Z<br/>
+                                <i>Latitude:</i> 55.3450710&#176;<br/>
+                                <i>Longitude:</i> 23.7518785&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.7518785469302,55.345071038364885,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#37: Time:</i> 2025-12-03T18:00:00Z<br/>
+                                <i>Latitude:</i> 55.3915052&#176;<br/>
+                                <i>Longitude:</i> 23.7432857&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.74328567739748,55.391505177788396,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#38: Time:</i> 2025-12-03T18:10:00Z<br/>
+                                <i>Latitude:</i> 55.4409236&#176;<br/>
+                                <i>Longitude:</i> 23.7356638&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.735663764285107,55.440923617820744,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#39: Time:</i> 2025-12-03T18:20:00Z<br/>
+                                <i>Latitude:</i> 55.4921400&#176;<br/>
+                                <i>Longitude:</i> 23.7277543&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.727754279705227,55.49214001187563,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#40: Time:</i> 2025-12-03T18:30:00Z<br/>
+                                <i>Latitude:</i> 55.5445533&#176;<br/>
+                                <i>Longitude:</i> 23.7212761&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.72127614067803,55.54455330283145,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#41: Time:</i> 2025-12-03T18:40:00Z<br/>
+                                <i>Latitude:</i> 55.5973645&#176;<br/>
+                                <i>Longitude:</i> 23.7147400&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.714740034100394,55.597364533267786,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#42: Time:</i> 2025-12-03T18:50:00Z<br/>
+                                <i>Latitude:</i> 55.6501564&#176;<br/>
+                                <i>Longitude:</i> 23.7098366&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.709836644374832,55.650156426512574,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#43: Time:</i> 2025-12-03T19:00:00Z<br/>
+                                <i>Latitude:</i> 55.7028129&#176;<br/>
+                                <i>Longitude:</i> 23.7065734&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.70657337623844,55.70281285495647,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#44: Time:</i> 2025-12-03T19:10:00Z<br/>
+                                <i>Latitude:</i> 55.7549225&#176;<br/>
+                                <i>Longitude:</i> 23.7049570&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.704957022351184,55.75492249117566,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#45: Time:</i> 2025-12-03T19:20:00Z<br/>
+                                <i>Latitude:</i> 55.8065821&#176;<br/>
+                                <i>Longitude:</i> 23.7065615&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.706561542452107,55.806582084740405,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#46: Time:</i> 2025-12-03T19:30:00Z<br/>
+                                <i>Latitude:</i> 55.8576719&#176;<br/>
+                                <i>Longitude:</i> 23.7097403&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.709740328157924,55.857671856398674,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#47: Time:</i> 2025-12-03T19:40:00Z<br/>
+                                <i>Latitude:</i> 55.9076989&#176;<br/>
+                                <i>Longitude:</i> 23.7128570&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.712857006311417,55.90769891417717,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#48: Time:</i> 2025-12-03T19:50:00Z<br/>
+                                <i>Latitude:</i> 55.9566228&#176;<br/>
+                                <i>Longitude:</i> 23.7159088&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.715908805196197,55.95662275376724,600</coordinates>
+                        </Point>
+                    </Placemark>
+                    <Placemark><Snippet></Snippet>
+                        <description><![CDATA[
+                                <i>#49: Time:</i> 2025-12-03T20:00:00Z<br/>
+                                <i>Latitude:</i> 56.0047138&#176;<br/>
+                                <i>Longitude:</i> 23.7189124&#176;<br/>
+                                <i>Elevation:</i> 600 m<br/>
+                                
+                        ]]></description>
+                        <styleUrl>#gv_trackpoint</styleUrl>
+                        <Style>
+                            <IconStyle>
+                                <color>FF2292f1</color>
+                            </IconStyle>
+                            <LabelStyle>
+                                <color>FF2292f1</color>
+                            </LabelStyle>
+                        </Style>
+                        <Point>
+                            <altitudeMode>absolute</altitudeMode>
+                            <coordinates>23.718912387934587,56.00471379618952,600</coordinates>
+                        </Point>
+                    </Placemark>
+                </Folder>
+            </Folder>
+        </Folder>
+    </Document>
+</kml>
