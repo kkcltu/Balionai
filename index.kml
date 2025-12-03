@@ -10,13 +10,5 @@
         <refreshInterval>3600</refreshInterval>
       </Link>
     </NetworkLink>
-    <NetworkLink>
-      <name>trajectory__2025-12-02T12_00_00 (1).kml</name>
-      <Link>
-        <href>https://raw.githubusercontent.com/kkcltu/Balionai/main/kml_files/trajectory__2025-12-02T12_00_00%20%281%29.kml</href>
-        <refreshMode>onInterval</refreshMode>
-        <refreshInterval>3600</refreshInterval>
-      </Link>
-    </NetworkLink>
   </Document>
 </kml>
